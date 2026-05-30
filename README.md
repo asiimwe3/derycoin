@@ -21,6 +21,22 @@ Derycoin (`DERY`) is a fixed-supply ERC-20 token project intended for deployment
 - `DEPLOY_DERYCOIN.md` - Remix deployment guide
 - `REAL_DERYCOIN_LAUNCH_PLAN.md` - Mainnet and trading launch checklist
 
+## Compile
+
+Install dependencies once:
+
+```bash
+npm install
+```
+
+Compile the contract:
+
+```bash
+npm run compile
+```
+
+The compiler writes a local artifact to `artifacts/Derycoin.json`. The `artifacts/` folder is ignored by Git because it can be regenerated.
+
 ## Launch flow
 
 1. Deploy and test on a free testnet.
