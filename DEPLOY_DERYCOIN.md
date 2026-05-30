@@ -41,12 +41,12 @@ You usually cannot deploy for free on a real public mainnet, because blockchains
 10. Set Environment to:
     `Injected Provider - MetaMask`
 
-11. In the constructor field, enter the supply you want before decimals.
+11. Leave the constructor field empty.
 
-    For a 10 million token supply, enter:
+    The contract already creates:
 
     ```text
-    10000000
+    10,000,000 DERY
     ```
 
 12. Click Deploy and confirm in MetaMask.
@@ -57,9 +57,8 @@ For a real token, choose the chain first. The same contract can be deployed on E
 
 Before mainnet deployment, decide:
 
-- Total supply
 - Whether ownership should remain with you or be renounced
-- Whether you want fixed supply only, minting, taxes, staking, vesting, or liquidity locks
+- Whether you want taxes, staking, vesting, or liquidity locks outside the token contract
 - Whether the project needs an audit or at least a public source-code verification
 
 ## Important warning

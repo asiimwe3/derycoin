@@ -101,4 +101,4 @@ Base:
 
 ## Important warning
 
-The current contract in `contracts/Derycoin.sol` is a simple starter contract. Before using it for a real launch, compile it in Remix, test transfers, and consider using an OpenZeppelin-based contract for stronger standard compatibility.
+The current contract in `contracts/Derycoin.sol` is dependency-free and written for Remix deployment. Before using it for a real launch, compile it, test transfers and approvals, and consider an independent review.

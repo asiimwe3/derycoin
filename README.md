@@ -1,6 +1,6 @@
 # Derycoin
 
-Derycoin (`DERY`) is a fixed-supply ERC-20 style token project intended for deployment on a low-fee EVM-compatible blockchain.
+Derycoin (`DERY`) is a fixed-supply ERC-20 token project intended for deployment on a low-fee EVM-compatible blockchain.
 
 ## Token settings
 
@@ -8,6 +8,9 @@ Derycoin (`DERY`) is a fixed-supply ERC-20 style token project intended for depl
 - Symbol: `DERY`
 - Decimals: `18`
 - Planned supply: `10,000,000 DERY`
+- Minting after deployment: `disabled`
+- Holder burns: `enabled`
+- Buy/sell tax: `none`
 - Recommended first mainnet: `Polygon PoS`
 - Recommended first trading pair: `DERY / USDC`
 - Recommended DEX on Polygon: `QuickSwap`
@@ -29,4 +32,4 @@ Derycoin (`DERY`) is a fixed-supply ERC-20 style token project intended for depl
 
 ## Security note
 
-This repository is an early launch workspace. Do not share wallet seed phrases or private keys. Review and test the contract before using it for real funds.
+This repository is an early launch workspace. Do not share wallet seed phrases or private keys. Review, compile, and test the contract before using it for real funds.
