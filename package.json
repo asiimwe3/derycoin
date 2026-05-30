@@ -2,11 +2,17 @@
   "name": "derycoin",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Derycoin fixed-supply ERC-20 token launch workspace.",
   "scripts": {
-    "compile": "node scripts/compile.js"
+    "compile": "node scripts/compile.cjs",
+    "hardhat:compile": "hardhat compile",
+    "test": "node --test test/*.test.js"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.12",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.7.0",
     "solc": "^0.8.30"
   }
 }

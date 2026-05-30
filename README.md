@@ -37,6 +37,16 @@ npm run compile
 
 The compiler writes a local artifact to `artifacts/Derycoin.json`. The `artifacts/` folder is ignored by Git because it can be regenerated.
 
+## Test
+
+Run the automated smart contract tests:
+
+```bash
+npm test
+```
+
+The test suite checks metadata, fixed supply, transfers, allowances, burning, and ownership changes.
+
 ## Launch flow
 
 1. Deploy and test on a free testnet.
