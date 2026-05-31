@@ -20,6 +20,7 @@ Derycoin (`DERY`) is a fixed-supply ERC-20 token project intended for deployment
 - `contracts/Derycoin.sol` - Solidity token contract
 - `DEPLOY_DERYCOIN.md` - Remix deployment guide
 - `DEPLOYMENT_PREP.md` - Hardhat deployment setup
+- `REMIX_DEPLOYMENT_GUIDE.md` - Browser-based Remix deployment steps
 - `REAL_DERYCOIN_LAUNCH_PLAN.md` - Mainnet and trading launch checklist
 
 ## Compile
