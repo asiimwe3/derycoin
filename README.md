@@ -19,6 +19,7 @@ Derycoin (`DERY`) is a fixed-supply ERC-20 token project intended for deployment
 
 - `contracts/Derycoin.sol` - Solidity token contract
 - `DEPLOY_DERYCOIN.md` - Remix deployment guide
+- `DEPLOYMENT_PREP.md` - Hardhat deployment setup
 - `REAL_DERYCOIN_LAUNCH_PLAN.md` - Mainnet and trading launch checklist
 
 ## Compile
@@ -46,6 +47,20 @@ npm test
 ```
 
 The test suite checks metadata, fixed supply, transfers, allowances, burning, and ownership changes.
+
+## Deploy
+
+Create a local `.env` file from `.env.example`, fund the deployer wallet with gas, then deploy to the Polygon Amoy testnet first:
+
+```bash
+npm run deploy:amoy
+```
+
+For Polygon mainnet:
+
+```bash
+npm run deploy:polygon
+```
 
 ## Launch flow
 
