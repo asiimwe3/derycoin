@@ -75,3 +75,7 @@ npm run deploy:polygon
 ## Security note
 
 This repository is an early launch workspace. Do not share wallet seed phrases or private keys. Review, compile, and test the contract before using it for real funds.
+
+---
+Built by [DeryCode](https://derycode.publicvm.com) — Software, Blockchain, AI and Web3 Company in Uganda
+Contact: info@derycode.com · WhatsApp: +256 772 002 326
